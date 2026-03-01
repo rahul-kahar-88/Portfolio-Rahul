@@ -7,10 +7,10 @@
 html{
     scroll-behavior: smooth;
 }
-body{
-    background: #070707;
-    color: #fff;
-
+body {
+    background: #0f172a;
+    color: #e2e8f0;
+    font-family: 'Inter', sans-serif;
 }
 #header{
     width: 100%;
@@ -22,7 +22,12 @@ body{
 .container{
     padding: 10px 10%;
 }
-
+.small-text {
+    color: #94a3b8;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
 nav{
     display: flex;
     align-items: center;
@@ -47,7 +52,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background: #1e293b;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -145,11 +150,12 @@ nav ul li a:hover::after{
     margin-top: 50px;
 }
 .services-list div{
-    background: #262626;
+    background: #1e293b;
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
     border-radius: 10px;
+    border: 1px solid #334155;
     transition: background 0.5s, transform 0.5s;
 }
 .services-list div i{
@@ -168,9 +174,9 @@ nav ul li a:hover::after{
     margin-top: 20px;
     display: inline-block;
 }
-.services-list div:hover{
-    background: #0997e9;
-    transform: translateY(-10px);
+.services-list div:hover {
+    border-color: #3b82f6;
+    transform: translateY(-8px);
 }
 /* ------==============================================------ portfolio ------=========================================------- */
 
@@ -337,7 +343,7 @@ nav .fas{
     font-size: 25px;
     }
     nav ul{
-        background: #ff004f;
+        background: #1e293b;
         position: fixed;
         top: 0;
         right: -200px;
